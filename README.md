@@ -9,6 +9,10 @@
 
 ## Screen Shots
 
+### Implementation
+
 ![ScreenShot of Implementation](imp_ss.png?raw=true "ScreenShot of Implementation")
+
+### Static Comp
 
 ![ScreenShot of Comp](comp_ss.jpg?raw=true "ScreenShot of Comp")
