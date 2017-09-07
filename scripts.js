@@ -1,10 +1,12 @@
 
 
-// var txtMax = document.querySelector("#txtMax");
+var navBtn = document.querySelector(".hamburger-nav");
+var mainNav = document.querySelector("#main-nav");
 
 
-// btnClear.addEventListener("click", clearForm);
+navBtn.addEventListener("click", toggleNav);
 
-// function clearForm() {
-
-// }
+function toggleNav() {
+  mainNav.classList.toggle('ham-show');
+  mainNav.classList.toggle('ham-hide');
+}
