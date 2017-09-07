@@ -1,0 +1,12 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.body-wrapper {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+}
