@@ -146,6 +146,10 @@ h1 span {
     width: 100%;
   }
 
+  main {
+    width: 100%;
+  }
+
   header {
     padding: 10px;
     border-bottom: 2px solid #FFF;
@@ -166,7 +170,7 @@ h1 span {
 
   }
 
-  nav {
+  .ham-show {
     width: 100%;
     padding: 25px;
     flex-direction: row;
@@ -175,7 +179,7 @@ h1 span {
     box-shadow: none;
   }
 
-  nav h2 {
+  .ham-show h2 {
     display: none;
   }
 
