@@ -4,9 +4,61 @@
   padding: 0;
 }
 
+h1 {
+  margin: 0;
+}
 
-
-.body-wrapper {
+body {
   font-family: 'Open Sans', sans-serif;
   display: flex;
+}
+
+nav {
+  width: 25%;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.big-button {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  width: 75%;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 20vh;
+  background-color: #BB7E7E;
+  display: flex;
+}
+
+.user-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.goals-calendar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.goals-calendar {
+  height: 50vh;
+  width: 49.5%;
+  background-color: #CDCDA7;
+  display: flex;
+  flex-direction: column;
+}
+
+.movement-log {
+  display: flex;
+  flex-direction: column;
+  background-color: #B794B7;
 }
